@@ -1,0 +1,49 @@
+{
+  "type": "scatter",
+  "data": {
+    "datasets": [
+      {
+        "label": "Doğu Anadolu Meraları",
+        "data": [
+          {"x": 200, "y": 300},
+          {"x": 250, "y": 400},
+          {"x": 150, "y": 200},
+          {"x": 300, "y": 500},
+          {"x": 100, "y": 150}
+        ],
+        "backgroundColor": "#2ecc71",
+        "borderColor": "#27ae60",
+        "pointRadius": 6
+      }
+    ]
+  },
+  "options": {
+    "scales": {
+      "x": {
+        "title": {
+          "display": true,
+          "text": "Yıllık Yağış (mm)"
+        },
+        "min": 0,
+        "max": 600
+      },
+      "y": {
+        "title": {
+          "display": true,
+          "text": "NPP (gC/m²/yıl)"
+        },
+        "min": 0,
+        "max": 600
+      }
+    },
+    "plugins": {
+      "legend": {
+        "display": true
+      },
+      "title": {
+        "display": true,
+        "text": "NPP ve Yağış İlişkisi"
+      }
+    }
+  }
+}
